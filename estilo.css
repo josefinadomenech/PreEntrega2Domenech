@@ -1,10 +1,41 @@
 
+ @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Lato:wght@400;700&family=Montserrat&display=swap');
+header{
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    font-size: large;
+}
 div.logo{
     height: 200px;
     display: flex;
+    margin-bottom: -50px;
 }
 img.logo{
     height: 100%;
     width: auto;
     display: block;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+
+footer{
+    background-color: #2f2f2f;
+    font-family: 'Montserrat', sans-serif;;
+}
+footer section{
+    padding: 30px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: grey;
 }

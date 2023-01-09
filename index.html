@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Almarai&family=Lato:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
     <title>La Cruz Pampa</title>
 </head>
 <body>
@@ -27,17 +28,30 @@
 </header>
 
 <main class="container-fluid">
-    <div class="row">
-        <div class="promo col-3"><img class="img-fluid" src="img/ejemplo.svg" alt=""></div>
-        <div class="promo col-3"><img class="img-fluid" src="img/ejemplo.svg" alt=""></div>
-        <div class="promo col-3"><img class="img-fluid" src="img/ejemplo.svg" alt=""></div>
-        <div class="promo col-3"><img class="img-fluid" src="img/ejemplo.svg" alt=""></div>
-    </div>
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+          </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="img/ejemplo.svg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="img/ejemplo2.svg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-fluid" src="img/ejemplo3.svg" alt="Third slide">
+          </div>
+        </div>
+      </div>
 </main>
 
 <footer class="container-fluid">
 <section class="row">
-    <div class="info col-4">
+    <div class="info col-3">
         <ul class="nav flex-column"><a href="#" class="nav-link">Cómo comprar</a></ul>
         <ul class="nav flex-column"><a href="#" class="nav-link">Políticas de devolución</a></ul>
         <ul class="nav flex-column"><a href="#" class="nav-link">Envíos</a></ul>
