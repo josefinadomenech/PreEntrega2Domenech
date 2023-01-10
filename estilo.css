@@ -1,8 +1,24 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Lato:wght@400;700&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     font-family: 'Lato', sans-serif;
     padding-bottom: 20px;
+    color: black;
+}
+header a{
+    color: black;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.logotipo{
+    margin-bottom: -5vh;
 }
 h1{
     font-weight: bold;
@@ -10,28 +26,55 @@ h1{
 h2{
     font-size: large;
 }
-div.logo{
-    height: 200px;
-    display: flex;
-    margin-bottom: -50px;
-}
-img.logo{
-    height: 100%;
-    width: auto;
-    display: block;
-}
+
 
 main{
-    padding-bottom: 20px;
+    width: 100%;
+    padding: 0px;
 }
+#carousel{
+    width: 100%;
+    padding: 0px;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.marcas{
+    width: 50%;
+    padding: 10vh 0 10vh;
+}
+.marcas img{
+    padding: 0;
+}
+.marcas article{
+    padding: 0;
+}
+
+.secciones{
+    width: 80%;
+    padding: 20px;
+    justify-content: center;
+}
+.secciones section{
+    border: solid black 5px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+
 
 
 footer{
     background-color: #2f2f2f;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
 }
 footer section{
-    padding: 30px;
+    padding: 5vh;
 }
 footer a{
     color: white;
