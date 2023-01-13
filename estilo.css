@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+/***HEADER INDEX***/
 header{
     font-family: 'Lato', sans-serif;
     padding-bottom: 20px;
@@ -28,11 +29,29 @@ h2{
     font-size: large;
 }
 
+/***HEADER OTRAS PAGINAS***/
+.loguito img{
+    height: 100px;
+}
+.loguito{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.loguito a:hover{
+    text-decoration: none;
+    transform: none;
+    color: black;
+}
 
+
+/***MAIN GRAL***/
 main{
     width: 100%;
     padding: 0px;
 }
+
+/***CAROUSEL INDEX***/
 #carousel{
     width: 100%;
     padding: 0px;
@@ -43,6 +62,7 @@ main{
     padding: 0px;
 }
 
+/***MARCAS INDEX***/
 .marcas{
     width: 50%;
     padding: 10vh 0 10vh;
@@ -54,23 +74,70 @@ main{
     padding: 0;
 }
 
+/***PRODUCTOS PPALES INDEX***/
 .secciones{
     width: 80%;
     padding: 20px;
     justify-content: center;
 }
 .secciones section{
-    border: solid black 5px;
     border-radius: 10px;
     width: 100%;
     margin-bottom: 2vh;
+    padding: 20px;
+}
+.prod{
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+}
+.prod img{
+    border-radius: 2rem;
+}
+.prod img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/***NAV DE OPCIONES OTRAS PAG***/
+.opciones a{
+    font-family: 'Almarai', sans-serif;
+    margin: 2vh;
+    color: white;
+    background-color: #2f2f2f;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    font-size: 3vh;
+}
+.opciones a:hover{
+    background-color: white;
+    color: #2f2f2f;
+    font-size: 4vh;
+}
+
+/***PANELES POSTEOS***/
+.posts h2{
+    font-size: 3vh;
+}
+.panel{
+    margin-bottom: 2rem;
+}
+.panel-body{
+    padding: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+}
+.panel h3{
+    font-size: 3vh;
+}
+.panel p{
+    font-size: 2vh;
 }
 
 
 
-
+/***FOOTER***/
 footer{
     background-color: #2f2f2f;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 2vh;
 }
@@ -82,4 +149,7 @@ footer a{
 }
 footer a:hover{
     color: grey;
+}
+.redes{
+    align-items: center;
 }
